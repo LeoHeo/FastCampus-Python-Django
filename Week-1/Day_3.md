@@ -39,6 +39,7 @@
 
 #### 스택과 큐
 ![](http://cfile24.uf.tistory.com/image/265CDC355348E98F376C25)
+
 스택(Stack)
 - First In Last Out -> FILO
 - 삽입 삭제 한곳에서만 발생
@@ -47,6 +48,7 @@
 - 인터럽트 처리, 수식의 계산, 서브루틴의 복귀번지 저장등에 사용
 
 ![](http://cfile4.uf.tistory.com/image/2122AE3853490A611FE316)
+
 큐(Queue)
 - First In First Out -> FIFO
 - 삽입( 가장 뒤 rear) 삭제( 가장 앞Front)가 두군데에서 일어남
@@ -147,7 +149,7 @@
 - 문서형(Document)
 - 컬럼형(Column)
 
-Database(DB)를 관리하는 DBMS가 있고 DBMS에는 Table들이 있고 Table에는 Column이 있고 그 Column에 해당하는 데이터들이 있다.
+Database(DB)를 관리하는 DBMS가 있고 DBMS에는 DB와 Table들이 있고 Table에는 Column이 있고 그 Column에 해당하는 데이터들이 있다.
 
 가장 많이 사용하는건 RDB(관계형 데이터베이스)
 
