@@ -108,6 +108,8 @@
 하드웨어를 모르면 소프트웨어를 만들수 없다.
 하버드 구조, 폰 노이만 구조
 
+![](http://image.slidesharecdn.com/06-instructionsetarchitectureii-150216185310-conversion-gate02/95/instruction-set-architecture-ii-6-638.jpg?cb=1424113055)
+
 #### 하버드 구조
 물리적으로 2개의 메모리
 명령어, 데이터 메모리
