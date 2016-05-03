@@ -1,6 +1,5 @@
 # 웹 프로그래밍 스쿨 Day-1
 
-[toc]
 
 ## Introduction to Computer
 
