@@ -1,6 +1,6 @@
-# Day-3
+# 웹 프로그래밍 스쿨 Day-4
 
-## Day-2 Review
+## Day-3 Review
 비선형 - 트리, 그래프
 차이점
 트리 - root가 있다
