@@ -2,7 +2,8 @@
 count = 5
 
 # stat_1
-for i in range()
+for i in range(5):
+    print("*" * (i + 1))
 
 # star_2
 for i in range(count):
