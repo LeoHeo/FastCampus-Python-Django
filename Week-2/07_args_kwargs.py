@@ -63,5 +63,5 @@ print_all_information(
 )
 
 # 라이브러리 만들때 아래와 같이 만드는 경우 많음
-def some_function(___, ___, *args, *kwargs):
+# def some_function(___, ___, *args, *kwargs):
     
