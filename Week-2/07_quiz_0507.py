@@ -28,22 +28,12 @@ def print_fastcampus():
     for i in range(1, 100+1): 
         word = validation_fastcampus(3, i, "fast")\
             + validation_fastcampus(5, i, "campus")
-        
-        
-        #if word == "":
-        #    result_list.append(str(i))
-        #else:
-        #    result_list.append(word)
     
     return result_list
             
 
 def validation_fastcampus(divide, number, word):
     return word if number % divde == 0  else ""
-    # if number % divide == 0:
-    #     return word
-    # else:
-    #     return ""
 
 
 # 함수처리 안하고 List Comprehension으로
