@@ -17,4 +17,3 @@ echo "--------------"
 echo "WebProgramming"
 echo "-------------"
 **pyenv activate [directory name]**
-
