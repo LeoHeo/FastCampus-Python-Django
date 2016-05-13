@@ -109,43 +109,10 @@ awsome_list = [i for i in range(0, 9+1)]
 
 filter(lambda x: x>5, awsome_list)
 
-a = map(
+square = map(
     lambda x: x**2,
     filter(lambda x: x>5, awsome_list)
 )
 
 
-# 1~100까지 숫자 중에서 짝수인 애들의 제곱 리스트
-
-# print([i**2 for i in range(1, 101) if i%2 == 0])
-
-
-# 1~1000까지의 소수인거 구하기
-# 소수가 아닌 애들 먼저 구함 => 1~n 소수가 아닌 애들 뺀다
-MAX = 1000
-
-not_prime_list = [
-    j
-    for i in range(2, int((MAX + 1)**0.5) + 1) # 2, 3, 4, 5, 6, 7, 8, 9, 10 ...
-    for j in range(i*2, MAX, i) # j=> i=2
-]
-
-prime_list = [
-    i
-    for i in range(2, MAX)
-    if i not in not_prime_list
-]
-
-# lambda로 바꾸기
-
-#print(len(not_prime_list))
-print(set(not_prime_list))
-#print(len(not_prime_list))
-#print(prime_list)
-
-awesome_list = [
-    (i, j)
-    for i in range(8)
-    for j in range(4)
-]
  
