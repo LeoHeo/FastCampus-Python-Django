@@ -68,13 +68,11 @@ clone한 폴더에 있는 파일을 iterm theme로 import 할 것이다.
 
 `iTerm -> Preferences -> profiles`로 이동 한 후 `import`를 누른다.
 
-![](images/font.png)
-
 import 할 파일은 위에 그림에 있는 `Solarized Dark.itermcolors`이다.
 
 그리고 `agnoster theme`를 사용하기 위해서는 **iTerm text Font를 아래와 같이 바꿔줘야 한다.**
 
-![](images/font)
+![](images/font.png)
 
 [Font](https://gist.github.com/qrush/1595572) 주소로 가서 상단의 2개 폰트에 대해서 설치한다.
 
