@@ -4,6 +4,8 @@
 - Week1(Computer Science)
 - Week2(Python Basic)
 
+## iTerm
+- [iTerm 개발환경](iTermSetting.md)
 
 ## Week 1
 - [컴퓨터 구성, 구조](Week-1/Day_1.md)
