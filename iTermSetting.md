@@ -1,6 +1,6 @@
 ## 개발환경 세팅
 
-![iterm.png](/Users/jinhan/Desktop/iterm.png)
+![iterm.png](images/iterm.png)
 
 Mac을 쓰는 개발자라면 좀 더 개발자(?)답게 보이기 위해서 콘솔창을 위와 같이 만드는것은 한번 해볼만 하다.
 Git을 사용하기 전까지는 몰랐는데 Git을 사용하고 나니 **정말 편하다** 왜 모든 개발자들이 위와같이 세팅을 하는지 알거 같다.
@@ -64,17 +64,17 @@ git clone git://github.com/altercation/solarized.git
 
 clone한 폴더에 있는 파일을 iterm theme로 import 할 것이다.
 
-![스크린샷 2016-05-14 오후 6.49.49.png](/Users/jinhan/Desktop/스크린샷 2016-05-14 오후 6.49.49.png)
+![](images/iterm_theme.png)
 
 `iTerm -> Preferences -> profiles`로 이동 한 후 `import`를 누른다.
 
-![스크린샷 2016-05-14 오후 6.52.09.png](/Users/jinhan/Desktop/스크린샷 2016-05-14 오후 6.52.09.png)
+![](images/font.png)
 
 import 할 파일은 위에 그림에 있는 `Solarized Dark.itermcolors`이다.
 
 그리고 `agnoster theme`를 사용하기 위해서는 **iTerm text Font를 아래와 같이 바꿔줘야 한다.**
 
-![스크린샷 2016-05-14 오후 6.57.04.png](/Users/jinhan/Desktop/스크린샷 2016-05-14 오후 6.57.04.png)
+![](images/font)
 
 [Font](https://gist.github.com/qrush/1595572) 주소로 가서 상단의 2개 폰트에 대해서 설치한다.
 
