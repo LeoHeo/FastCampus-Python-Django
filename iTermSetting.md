@@ -88,7 +88,7 @@ import 할 파일은 위에 그림에 있는 `Solarized Dark.itermcolors`이다.
 
 ```
 "ZSH-THEHE = "robbyrussell"
-ZSH-THEHE = "robbyrussell"
+ZSH-THEHE = "agnoster"
 ```
 
 터미널을 종료 후 git 폴더로 들어가면 맨 처음과 같은 화면이 뜰거다.
