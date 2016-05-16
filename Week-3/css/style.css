@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* style.css */
+body {
+	background: lightblue;
+	color: #333333; /* 트루컬러(앞2(R) 가운데2(G) 끝2(B)) */
+	font-size: 20px; /* 기본 영문(11~12px) */
+	line-height: 1.5; /* 14 x 1.5 */
+}

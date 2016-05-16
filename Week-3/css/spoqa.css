@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* 나중에는 min처럼 쫙 쭐이는게 좋음 */
+body {
+	/* 속기형 작성법 */
+	/* top right bottom left */
+	/* top <- bottom */
+	/* right <- left */
+	/*margin: 0;*/
+	
+	/*
+	 * ------------------
+	 * 유동 디자인 유형
+	 * ------------------
+	*/
+	width: 80%;
+	margin: 0 auto;
+
+	/*
+	 * ----------------------
+	 * 고정 디자인 유형
+	 * ----------------------
+	*/
+
+/*	margin-left: auto;
+	margin-right: auto;
+	width: 800px;*/
+
+	background-color: #3e4244;
+	color: #fff;
+	font-family: 'Spoqa Han Sans', 'Nanum Gothic', Doutm, Gulim, Helvetica, Arial, 'Sans Serif'
+	font-weight: 200;
+	line-height: 1.5;
+	font-size: 14px;
+
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 21px;
+}
+
+.leading-guide-21 {
+  /* 화면에 패턴을 그리는데, 그림은 수평선을 그리는데 간격이 21px이다.*/
+  /* CSS3 리니어 그레디언트(선형 그레디언트) */
+  background-image: linear-gradient(180deg, transparent 95%, #f00 95%);
+  /*-webkit-background-size: 100px 100px;*/
+  /* width height */
+  background-size: 1px 21px;
+}
+
+.americ {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 400; /* Normal */
+}
+
+img {
+	vertical-align: bottom;
+}
+
+.frame {
+	border: 1px solid  #3A0099;
+	padding: 10px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+
+.frame-round {
+	border-radius: 15px;
+}
+
+.frame-shadow {
+	box-shadow: 0 8px 3px rgba(0,0,0,0.3);
+}
+
+.material-style {
+	transition: all 0.6s ease;
+	transform: scale(1);
+	
+}
+
+.material-style:hover {
+	box-shadow: 0 8px 3px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+	
+}

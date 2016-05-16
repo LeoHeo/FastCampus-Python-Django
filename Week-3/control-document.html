@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>사용자 인터페이스 환경에 대한 이해</title>
+	<style>
+		body{
+			background: #ff0;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<button type="button">click me</button>
+	<script>
+		// IIFE 패턴을 안지킴 아래는
+
+/*		var body = document.body;
+		var btn = document.querySelector('button');
+		btn.addEventListener('click', function(){
+			body.style.backgroundColor = "#FE4940";
+		});*/
+
+		/* 
+		 * A팀장이 body라고 선언하고
+		 * B팀원이 body라고 선언했을시
+		 * 위와 같은 구조는 아래 선언으로 override
+		 * IIFE(Immediately Invoked Function Expressions)
+		 * 사용하는 이유: Global Scope를 오염 시키지 않기 위해서
+		 */
+		(function(exports){
+			'use strict';
+			//
+			var body = document.body;
+			var btn = document.querySelector('button');
+			btn.addEventListener('click', function(){
+				body.style.backgroundColor = '#FE4940';
+			});
+			console.log('first module', body);
+		})(this);
+
+		(function(global){
+			'use strict';
+			// B 팀원
+			var body = document.documentElement;
+			console.log('second module body : ', body);
+		})(this);
+
+	</script>
+</body>
+</html>
