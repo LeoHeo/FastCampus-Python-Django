@@ -24,3 +24,8 @@
 - [class Basic](Week-2/08_class_basic.py)
 - [Exception](Week-2/09_Exception.py)
 - [Decorator](Week-2/10_Decorator.py)
+
+
+## Week3
+- [HTML, CSS, JS Basic](Week-3/)
+- [EM, REM, CSS Selector](Week-3/Day-2)
