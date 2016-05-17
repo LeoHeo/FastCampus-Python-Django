@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- ! 탭(html5 template) -->
+<html lang="en">
+<head>
+	<meta>
+	<meta charset="UTF-8">
+	<title>오늘 날 빈번하게 사용되는 HTML 코드 중심 리뷰</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="myApp" class="guide">
+
+	<header class="myApp_header"></header>
+	<nav></nav>
+	<main>
+		<section>
+			<header class="main-section_headder"></header>
+			<article>
+				<header></header>
+				<section></section>
+				<footer></footer>
+			</article>
+		</section>
+	</main>
+	<aside></aside>
+	<footer></footer>
+
+	<!-- HTML5 새롭게 추가된 구조 섹션 요소-->
+	<!-- 범용적으로 사용가능한 섹션 요소 -->
+	<section></section>
+	<!-- 독립적으로 사용 가능한 섹션 요소 -->
+	<article></article>
+	<!-- 네비게이션 -->
+	<nav></nav>
+	<!-- 주 정보가 보조 정보를 담는 섹션 요소 -->
+	<aside></aside>
+	<!-- 주요 내용을 담는 섹션 요소 -->
+	<main></main>
+
+
+	<!-- 모든 섹션 요소는 헤더, 푸터를 소유할 수 있다. -->
+	<!-- 필수 아님 -->
+	<header></header>
+	<footer></footer>
+
+	<!-- Divisition: 의미 x, 영역을 구분하는 목적으로 사용 -->
+	<!-- width auto 컨텐츠 크기만큼 높이 -->
+<!-- 	<div id="page-header">
+		Page Header
+	</div>
+	<div id="page-navigation">
+		Page Nav
+	</div>
+
+	<div class="no-space"></div> -->
+
+	<!-- heading Lv 1-6 -->
+	
+	<h1>Heading1</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem possimus eaque, doloribus eveniet dolorum consequatur cumque, temporibus distinctio. Laborum eaque dignissimos tempore ipsum quam deleniti id, quo sit vel repellat.</p>
+	<h2>Heading2</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolores esse dolore nulla ipsa, odit, quasi amet sequi reprehenderit, animi quod quaerat tempore blanditiis excepturi praesentium autem modi, quidem doloribus.</p>
+	<h3>Heading3</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere praesentium provident, qui totam ipsa veritatis quaerat quam est illo eaque quae, laudantium sequi consequatur molestiae. Provident assumenda aliquam dolore, sunt.</p>
+	<h4>Heading4</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, repellendus ex inventore maiores ad magni blanditiis iure eum in est veniam fugiat nostrum itaque, possimus autem eos. Quaerat, ut, enim!</p>
+	<h5>Heading5</h5>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quibusdam id nostrum, est sapiente saepe quisquam error molestiae accusantium nemo et facilis eveniet voluptatem, numquam perspiciatis beatae aperiam, laborum voluptates!</p>
+	<h6>Heading6</h6>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, vero commodi ab quaerat officia quasi quidem? Sequi corporis nisi dolorum fugiat. Officiis debitis inventore iure accusamus quasi pariatur laudantium nostrum.</p>
+	<hr>
+	<h1><abbr title="Hyper Text Markup Language">HTML</abbr> 목록(Lists)</h1>
+<!-- 	<p>
+		<abbr lang="en" title="World Health Organization">WHO</abbr>에서는 2016년 후반기에 전 세계적으로 병원균에 대한 주의를 경고했다.
+	</p> -->
+	<!-- 
+
+		순차 목록(Ordered List)
+	
+		목록 항목(List Item)
+		<li>라이터<li>
+		<li>맥가이버 칼<li>
+		<li>월슨<li>
+
+		비순차 목록(Unordered List)
+
+		정의 목록(Definition List)
+	-->
+	
+	<h2>무인도에 간다면? 꼭 필요한 3가지</h2>
+	<!-- 순차 목록(Ordered List) -->
+	<!-- 목록 항목(List Item) -->
+	<ol>
+		<li>라이터</li>
+		<li>맥가이버 칼</li>
+		<li>월슨</li>
+	</ol>
+
+	<!-- 비 순차 목록(Unordered List) -->
+	<h2>우리 서비스에 필요한 언어</h2>
+	<ul>
+		<li>Python</li>
+		<li>Django</li>
+		<li>Node.js</li>
+		<li>ECMAScript 2015</li>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>SVG</li>
+		<li>Canvas</li>
+		<li>WebGL</li>
+	</ul>
+
+	<!-- Depth 3 목록 -->
+	<ul lang="en">
+		<li>Front-end Language
+			<ul>
+				<li>HTML</li>
+				<li><abbr title="Cascading Style Sheet">CSS</abbr></li>
+				<li><abbr title="ECMAScript">ES</abbr></li>
+				<li>Pre Processor
+					<ul>
+						<li>sass</li>
+						<li>LESS</li>
+						<li>Stylus</li>
+						<li>PostCSS</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>Back-end Language
+			<ul>
+				<li>PHP</li>
+				<li>ASP</li>
+				<li>JSP</li>
+				<li>Python</li>
+			</ul>
+		</li>
+	</ul>
+	
+	<!-- 정의 목록(definition List) -->
+	<!-- <dl></dl> -->
+	<!-- 정의 용어(Definition Term) -->
+	<!-- <dt></dt> -->
+	<!-- 정의 용어를 기술 -->
+	<!-- <dd></dd> -->
+	<dl>
+		<dt>미리내</dt>
+		<dd>은하수의 순 우리말</dd>
+		<dd><img src="http://goo.gl/TKm71V" alt="미리내"></dd>
+		<dt>스마트톤</dt>
+		<dd>핸드폰이 아닌 컴퓨터 폰</dd>
+		<dt>조조</dt>
+		<dd>난세의 간웅</dd>
+	</dl>
+
+
+</html>

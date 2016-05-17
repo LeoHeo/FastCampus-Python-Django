@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/*em 계산복잡 힘듬*/
+		/*body {
+			font-size: 14px;
+		}
+		.outer {
+			font-size: 1.2em;
+		}
+		.inner {
+			font-size: 1.15em;
+		}
+		.inner a {
+			font-size: 0.987em;
+		}
+		.inner span {
+			font-size: 1.17em;
+		}*/
+
+		
+		/*REM(Root EM)*/
+		
+		/*반응형 웹: CSS 미디워 쿼리*/
+		@media screen and (max-width: 600px) {
+			html {
+				font-size: 80%;
+				background: #25A04D;
+			}
+		}
+
+		@media screen and (min-width: 601px) {
+			html {
+				font-size: 100%;
+				background: #1C3E8E;
+			}
+		}
+
+		@media screen and (min-width: 1000px) {
+			html {
+				font-size: 120%;
+				background: #8D0A7C;
+			}
+		}
+
+		html {
+			font-size: 100%;
+		}
+		body {
+			font-size: 0.875rem;
+		}
+		.outer {
+			font-size: 0.7rem;
+		}
+		.inner {
+			font-size: 0.85rem;
+		}
+		.inner a {
+			font-size: 0.9rem;
+		}
+		.inner span {
+			font-size: 0.99rem;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="outer">
+		outer
+		<div class="inner">
+			inner
+			<a href="">
+				anchor
+				<span>span</span>
+			</a>
+		</div>
+	</div>
+</body>
+</html>

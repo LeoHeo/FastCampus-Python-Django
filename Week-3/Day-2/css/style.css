@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/*
+	웹웹 브라우저는 각각 가지고 있는 기본 스타일(UA Style)이 다르다.
+	기본 스타일을 초기화(Reset)하거나, 일반화 해야한다.
+*/
+
+/*root element*/
+html {
+	font-size: 80%%;
+}
+
+/*반응형 웹 : CSS 미디어 쿼리*/
+@media screen and (min-width: 601px) {
+	html {
+		font-size: 100%;
+	}
+}
+@media screen and (min-width: 1200px) {
+	html {
+		font-size: 120%;
+	}
+}
+
+
+/* 
+ * ------------------------
+ * 초기화
+ * ------------------------
+ */
+
+body {
+	margin: 0;
+	/*글자 크기*/
+	/*font-size: 0.875rem;*/ /* 14/16px = 14/16 * 100 = 87.5% */
+	color: #111215;
+	line-height: 1.5rem;
+}
+
+
+/* 
+ * -------------------------
+ * 박스모델
+ * -------------------------
+ */
+
+/* 선택자 Selector */
+/*요소 선택자 Type Selector*/
+/* Division - Block Level Element */
+/* margin은 투명하기 때문에 backgroud가 안먹음
+ */
+div {
+	border-top: 10px solid  #ffd219;
+	border-bottom: 10px solid  #34C0FF;
+	border-right: 10px solid  #7045CF;
+	border-left: 10px solid  #25A04D;
+	background: #333;
+	color: #fff;
+	margin: 10px;
+	font-size: 32px;*/
+	/*상대값을 활용해서 범용성*/
+	/* 14x1.5 */
+	padding: 1em;
+	font-size: 14px;
+}
+
+#page-header {
+	background: #FC414B;
+}
+
+#page-navigation {
+	/*음수 마진 활용 예*/
+	/*margin-top: -20px;*/
+}
+
+.no-space {
+	width: 0;
+	height: 0;
+	padding: 0;
+}
+
+/*
+ * ---------------------------
+ * 제목 스타일
+ * ---------------------------
+*/
+
+/*www.gridlover.net/try*/
+
+/* 초기화: 공간 제거, 두께 제거, 크기 기본화 */
+/* Grouping */
+/* 1점 할당 */
+/* http://type-scale.com/ */
+h1, h2, h3, h4, h5, h6, p{
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal; /*400*/
+	font-size: 100%; /*16px*/		
+}
+
+/*제목 간 크기 비율 * 1.225*/
+h5 { font-size: 1.23rem; }
+h4 { font-size: 1.5rem; }
+h3 { font-size: 1.84rem; line-height: 3rem;}
+h2 { font-size: 2.25rem; line-height: 3rem;}
+h1 { 
+	font-size: 2.76rem; /*38.64px*/
+	/*line-height: 63px;*/
+	/*38.64 / 63*/
+	/*line-height: 1.630434783;*/
+	/*margin-bottom: 21px;*/
+	line-height: 4.5rem;
+}
+
+
+/*
+ * ---------------------------
+ * 가이드 디자인
+ * ---------------------------
+*/
+.guide {
+	height: 100vh;
+	/*본문 크기에 상대적인 설정된 높이만큼 수평선을 그린다.*/
+	background-image: linear-gradient(transparent 95%, #B9121B 95%);
+	background-size: 1px 1.5rem;
+}
+
+/* 축약어(Abbreviation) UI 스타일 */
+abbr {
+	cursor: help;
+}
+
+/* 목록 디자인 */
+ul, ol {
+	/*목록 초기화*/
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+}
+
+/*자손 선택자*/
+ul ul {
+	padding-left: 1rem;
+}

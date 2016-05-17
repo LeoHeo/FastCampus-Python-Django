@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* 전체 선택자 0000 */
+body * {
+	/*border: 10px solid red;*/
+}
+
+/* 타입 선택자 0001 */
+div {
+	width: 100px;
+	height: 100px;
+	border: 10px solid;
+}
+
+/* 클래스 선택자 0010 */
+.border-purple {
+	border-color: purple;
+}
+
+/* 아이디 선택자 0100 */
+#maroon {
+	border-color: maroon;
+}
+
+/*ul.none-style,
+ol.none-style {
+	list-style-type: none;
+}
+*/
+
+/* 
+ * --------------------------
+ * 리스트
+ * --------------------------
+ */
+
+.reset-list {
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+	padding-left: 0;
+}
+
+/* ----------------------------
+ * 가상(유사, 의사) 클래스
+ * :Pseudo Class
+ * ----------------------------
+*/
+
+.ui-zebra-list li {
+	list-style-type: none;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 0.5rem;
+}
+
+.ui-zebra-list li:nth-child(even) {
+	background-color: #dbf6ff;
+}
+
+.ui-zebra-list li:hover {
+	border: 1px solid red;
+}
+
+.ui-zebra-list li:first-child {
+	border: 1px solid red;
+	border-radius: 10px 10px 0 0;	
+}
+
+
+.ui-zebra-list li:last-child {
+	border: 1px solid hotpink;
+	border-radius: 0 0 10px 10px;
+}
+
+.ui-zebra-list a {
+	text-decoration: none;
+	color: #fc414b;
+	font-size: 3rem;
+}
+
+.ui-zebra-list a:hover,
+.ui-zebra-list a:focus {
+	color: #7045cf;
+	font-size: 4rem;
+}
