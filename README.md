@@ -1,11 +1,9 @@
 # Learn WebProgramming Study Projects
 
 ## The Projects
+- CodeFights(Python3 Study)
 - Week1(Computer Science)
 - Week2(Python Basic)
-
-## iTerm
-- [iTerm 개발환경 세팅](iTermSetting.md)
 
 ## Week 1
 - [컴퓨터 구성, 구조](Week-1/Day_1.md)
@@ -29,3 +27,11 @@
 ## Week3
 - [HTML, CSS, JS Basic](Week-3/)
 - [EM, REM, CSS Selector](Week-3/Day-2)
+
+
+## iTerm
+- [iTerm 개발환경 세팅](iTermSetting.md)
+
+
+## CodeFights
+- [CodeFights 풀었던 문제들](codefights/)
