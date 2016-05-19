@@ -25,8 +25,8 @@
 
 
 ## Week3
-- [HTML, CSS, JS Basic](Week-3/)
-- [EM, REM, CSS Selector](Week-3/Day-2)
+- [HTML, CSS, JS Basic](Week-3/HTML&CSS/Day-1)
+- [EM, REM, CSS Selector](Week-3/HTML&CSS/Day-2)
 
 
 ## iTerm
