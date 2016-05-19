@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+	margin: 0px;
+}
+
+.page {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100vh;
+	background: #000;
+}
+
+.page-header {
+	height: 20vh;
+	background-color: #ffd219;
+}
+
+.page-main {
+	/*height: 80vh;*/
+	background-color:; #1100ff;
+}
+
+.clearfix::after {
+	content: 'float된 요소를 부모가 감싸게 하기 위한 가상요소';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.page-footer {
+	/*both가 없으면 main으로 숨어버럼*/
+	/*clear: both;*/
+	height: 20vh;
+	background-color: #fe4940;
+}
+
+.ad {
+	float: left;
+	width: 80%;
+	height: 80vh;
+	background-color: #34c0ff;
+}
+
+.aside {
+	float: right;
+	width: 20%;
+	height: 80vh;
+	background-color: #9200ff;
+}

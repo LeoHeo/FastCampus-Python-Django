@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+	margin: 4rem;
+	background-color: #bbb;
+	font:bold 20px/1 Verdana;
+}
+.box {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 5px;
+	margin-right: 20px;
+	border: 10px solid #fff;
+	color: #fff;
+	text-align: center;
+	/*
+		정 가운데 정렬할려면
+		height만큼 line-height
+	*/
+	line-height: 200px;
+}
+.box-primary {
+	/*float: left;*/
+}
+.box-secondary {
+
+}
+.box-third {
+
+}
+/*이미지가 둘러싸이게 하기위해 float 초기 목적*/
+/*현재는 레이아웃 구성에 float 많이 사용*/
+
+
+/*common CSS*/
+.reset-list {
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+	padding-left: 0;
+}
+
+/*부모가 자식을 감쌀때?*/
+.clearfix::after {
+	content: '';
+	display: block;
+	clear:both;
+}
+
+/*global-navigation-bar*/
+.global-navigation-bar ul {
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.global-navigation-bar li {
+	/*padding: 1em;*/
+}
+.global-navigation-bar a {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	color: #754ccd;
+}
+.global-navigation-bar a:focus {
+	outline: 10px solid #ffd219;
+}
+
+.horizon-layout li {
+	float: left;
+}

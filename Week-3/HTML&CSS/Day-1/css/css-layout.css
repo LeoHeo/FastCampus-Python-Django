@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+	margin: 4rem;
+	background-color: #bbb;
+	font:bold 20px/1 Verdana;
+}
+
+
+
+/*이미지가 둘러싸이게 하기위해 float 초기 목적*/
+/*현재는 레이아웃 구성에 float 많이 사용*/
+
+
+/*common CSS*/
+.reset-list {
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+	padding-left: 0;
+}
+
+/*global-navigation-bar*/
+.global-navigation-bar ul {
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.global-navigation-bar li {
+	/*padding: 1em;*/
+}
+.global-navigation-bar a {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	color: #754ccd;
+}
+.global-navigation-bar a:focus {
+	outline: 10px solid #ffd219;
+}

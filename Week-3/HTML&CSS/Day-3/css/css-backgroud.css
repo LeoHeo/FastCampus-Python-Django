@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+html {
+	/*background: #ffd219;*/
+}
+
+/*기본적으로 margin 8px*/
+body {
+	height: 100vh;
+	margin: 0;
+	/*배경 색상*/
+	/*background-color: #4842c2;*/
+	/*배경 이미지*/
+	/*background-image: url("../images/bg.jpg");*/
+	/*x, y*/
+	/*background-position: 0 -340px;*/
+	/*텍스트 그림자*/
+	/*x y blur spread color*/
+	/*text-shadow: 0 0 6px #bfa085;*/
+	color: #b5b6cc;
+	background-image: url("http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/05/shards_pattern.jpg");
+	background-repeat: no-repeat;	
+	background-position: right bottom;
+	background-attachment: fixed;
+}
+
+/*1px 짜리 pattern을 만들어서 repeat
+성능 최적화*/
+
+/* text-align은 block요소에 */
+.round-box {
+	padding: 1 rem;
+	text-align: center;
+}
+
+.round-box a {
+	text-decoration: none;
+	color:#333;
+	font-size: 4.375rem;
+}
+
+/*장식*/
+.round-box a::before {
+	content: '<';
+	/*color: #b5b6cc;*/
+}
+
+.round-box a::after {
+	content: '>';
+	/*color: #b5b6cc;*/
+}
+
+.round-box .before-content {
+	color: #ffd219;
+}
+
+.round-box .after-content {
+	color: #ffe474;
+}
+
+.corp {
+	vertical-align: 43px; /* 인라인 요소, 테이블 셀 요소에만 적용이 가 */
+	letter-spacing: 0.04em; /* 개별적으로 글자 하나하나 마다 설정해줘야 하기때문에 em */
+	font-size: 0.75rem;
+	/*color:#63d1ff;*/
+}
+
+.image-box {
+  width: 571px;
+  height: 439px;
+}
+
+/*
+div w, h 설정 가능하나 h는 대체적으로 내용으로 처리
+span, a는 자체적으로 넓이가 없음(텍스트 만큼만)*/
+
+/*
+div는 text-align 가능
+span은 vertical-align 가능*/
+
+/*inline은 자신이 가지고 있는 만큼만 가지고 있기 때문에 */
+
+/*
+inline-block을 주면 
+block처럼 w, h 줄수 있다*/
+
+
+/*IE 조건부 주석문을 통한 필터링 방식*/
+/*.lt-it8 body {
+	background: #ff0;
+}
+*/
+/*CSS if문이 없기 때문에 아래와 같이 처리 */
+/*.borderradius .round-box {
+	width: 100px;
+	height: 100px;
+	background: #333;
+	border-radius: 50%;
+}
+
+.no-borderradius .round-box {
+	background-image: url("images/round-box.png");	;
+}
+
+.no-hairline body::before {
+	content: "hairline 지원하지 않습니다.";
+}*/
+
+/*https://resourcecards.com/*/
+/*리소스 관리 사이트*/
+
+/*tinyjpg.com*/
+/*온라인상에서 이미지 최적화 사이트*/
