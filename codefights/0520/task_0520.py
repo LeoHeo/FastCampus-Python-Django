@@ -32,16 +32,12 @@
 
 def swapNeighbouringDigits(n):
   number_to_string = str(n)
-  result = []
-  
-  for i in range(len(number_to_string)):
-      if (i+1) % 2 == 0:
-        result.append(
-        	number_to_string[i]
-        	+ number_to_string[i-1]
-        )
+
+  # Tuple 사용 swap
+  for i in range(1, len(number_to_string), 2):
+  	number_to_string[i-1], number_to_string[i] = number_to_string[i], number_to_string[i-1]
         
-  return int(''.join(result))
+  return int(''.join(number_to_string))
 
 
 # Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half.
