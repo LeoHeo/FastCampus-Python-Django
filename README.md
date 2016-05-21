@@ -10,6 +10,7 @@
 ## Blog & Wiki
 - [Python Built-in Function 정리](https://github.com/LeoHeo/FastCampus-Python-Django/wiki)
 - [*args 이해하기](http://hjh5488.tistory.com/1)
+- [iTerm 개발환경 세팅](http://hjh5488.tistory.com/2)
 
 
 ## Week 1
@@ -35,9 +36,6 @@
 - [HTML, CSS, JS Basic](Week-3/HTML&CSS/Day-1)
 - [EM, REM, CSS Selector](Week-3/HTML&CSS/Day-2)
 
-
-## iTerm
-- [iTerm 개발환경 세팅](iTermSetting.md)
 
 
 ## CodeFights
