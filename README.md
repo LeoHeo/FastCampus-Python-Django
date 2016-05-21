@@ -6,6 +6,12 @@
 - Week1(Computer Science)
 - Week2(Python Basic)
 
+
+## Blog & Wiki
+- [Python Built-in Function 정리](https://github.com/LeoHeo/FastCampus-Python-Django/wiki)
+- [*args 이해하기](http://hjh5488.tistory.com/1)
+
+
 ## Week 1
 - [컴퓨터 구성, 구조](Week-1/Day_1.md)
 - [컴퓨터의 연산, 운영체제](Week-1/Day_2.md)
