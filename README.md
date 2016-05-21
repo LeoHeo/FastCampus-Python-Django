@@ -1,4 +1,4 @@
-# Learn WebProgramming
+# Study WebProgramming
 
 
 ## The Projects
