@@ -58,9 +58,9 @@ for _ in range(int(count[1])):
     ))
 
 
-print('\n'.join([
-        str(sum(score) / len(score))
-        for score
-        in zip(*score_list)
-    ]
+print("\n".join(
+    map(
+        lambda x: str(sum(x) / len(x)),
+        zip(*score_list)
+    )
 ))
