@@ -105,8 +105,9 @@ $ git fetch [remote-name]
 
 그냥 쉽게 `git pull` 명령으로 리모트 저장소 브랜치에서 데이터를 가져올 뿐만 아니라 자동으로 로컬 브랜치와 Merge 시킬 수 있다. 먼저 `git clone` 명령은 자동으로 로컬의 `master` 브랜치가 리모트 저장소의 `master` 브랜치를 추적하도록 한다(물론 리모트 저장소에 `master` 브랜치가 있다는 가정에서). 그리고 `git pull` 명령은 `Clone` 한 서버에서 데이터를 가져오고 그 데이터를 자동으로 현재 작업하는 코드와 Merge 시킨다.
 
-`fetch` - 가져오나 자동 merge 안함 **임시폴더(.git)에 저장**
+`fetch` - 가져오나 자동 merge 안함 **임시폴더(.git)에 저장**<br>
 `pull` - 가져오고 현재 브랜치에 자동 merge 함
+
 
 
 ## alias 설정
