@@ -109,7 +109,6 @@ $ git fetch [remote-name]
 `pull` - 가져오고 현재 브랜치에 자동 merge 함
 
 
-
 ## alias 설정
 
 ```
