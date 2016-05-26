@@ -1,17 +1,18 @@
-# Study WebProgramming
+# TIL(Today I Learned)
 
 
 ## The Projects
-- CodeFights(Python3 Study)
+- Study(Python3 Study)
 - Week1(Computer Science)
 - Week2(Python Basic)
-
+- Week3(HTML, CSS, JS Basic)
 
 ## Blog & Wiki
 - [Python Built-in Function 정리](https://github.com/LeoHeo/FastCampus-Python-Django/wiki)
 - [*args 이해하기](http://hjh5488.tistory.com/1)
 - [iTerm 개발환경 세팅](http://hjh5488.tistory.com/2)
-
+- [init Django Setting(pyenv, autoenv, Django-admin)](https://gist.github.com/LeoHeo/8ec705ede8aeced43bf5dc3f7f9ba30a)
+- [pyenv command](https://gist.github.com/LeoHeo/479c678eb8e0a31d91cd0e43e34362b4)
 
 ## Week 1
 - [컴퓨터 구성, 구조](Week-1/Day_1.md)
@@ -38,5 +39,6 @@
 
 
 
-## CodeFights
-- [CodeFights 풀었던 문제들](codefights/)
+## Study
+- [CodeFights Solving Problem](codefights/)
+- [Hackerrank Solving Problem](Hackerrank/)
