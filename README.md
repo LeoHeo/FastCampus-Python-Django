@@ -13,6 +13,7 @@
 - [iTerm 개발환경 세팅](http://hjh5488.tistory.com/2)
 - [init Django Setting(pyenv, autoenv, Django-admin)](https://gist.github.com/LeoHeo/8ec705ede8aeced43bf5dc3f7f9ba30a)
 - [pyenv command](https://gist.github.com/LeoHeo/479c678eb8e0a31d91cd0e43e34362b4)
+- [Tmux Setting](https://gist.github.com/LeoHeo/70d191eb629b7e3e3084278e19a73e38)
 
 ## Week 1
 - [컴퓨터 구성, 구조](Week-1/Day_1.md)
