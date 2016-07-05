@@ -16,7 +16,10 @@
 - [Tmux Setting](https://gist.github.com/LeoHeo/70d191eb629b7e3e3084278e19a73e38)
 - [git stash 사용법 간단 정리](https://gist.github.com/LeoHeo/97350ffa8f615f13b67616ad56dcded7)
 - [AWS CodeDeploy Seoul Region Tutorials](https://gist.github.com/LeoHeo/19b122adc2e9a4afa862162ca0f8a4d0)
+- [AWS unbuntu 초기 세팅](https://gist.github.com/LeoHeo/de051388fead2abcded8b89fdb2775ee)
 - [AWS CodeDeploy 시행착오들](https://gist.github.com/LeoHeo/2200538217cfdc0125ca9a1627c6eb8b)
+- [Github organization Repository Slack Integration](https://gist.github.com/LeoHeo/46e5490b25511ffc746c8f9d7f4a2976)
+- [AWS SSL(letsencrypt)](https://gist.github.com/LeoHeo/8196cb25eeb28f2cf96274363777c314)
 
 ## Week 1
 - [컴퓨터 구성, 구조](Week-1/Day_1.md)
