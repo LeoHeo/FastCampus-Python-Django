@@ -21,6 +21,7 @@
 - [Github organization Repository Slack Integration](https://gist.github.com/LeoHeo/46e5490b25511ffc746c8f9d7f4a2976)
 - [AWS SSL(letsencrypt)](https://gist.github.com/LeoHeo/8196cb25eeb28f2cf96274363777c314)
 - [JWT 정리](https://gist.github.com/LeoHeo/c9678154b1dadd85add5862b30e969f8)
+- [Django ImageField AWS S3 Upload](http://hjh5488.tistory.com/12)
 
 ## Week 1
 - [컴퓨터 구성, 구조](Week-1/Day_1.md)
