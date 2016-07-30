@@ -22,6 +22,7 @@
 - [AWS SSL(letsencrypt)](https://gist.github.com/LeoHeo/8196cb25eeb28f2cf96274363777c314)
 - [JWT 정리](https://gist.github.com/LeoHeo/c9678154b1dadd85add5862b30e969f8)
 - [Django ImageField AWS S3 Upload](http://hjh5488.tistory.com/12)
+- [AWS S3 Seoul 사용하기](https://gist.github.com/LeoHeo/1b8735d2b4cb24efc260e3a63eb0ff3f)
 
 ## Week 1
 - [컴퓨터 구성, 구조](Week-1/Day_1.md)
