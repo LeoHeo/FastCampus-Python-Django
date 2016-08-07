@@ -24,6 +24,7 @@
 - [Django ImageField AWS S3 Upload](http://hjh5488.tistory.com/12)
 - [AWS S3 Seoul 사용하기](https://gist.github.com/LeoHeo/1b8735d2b4cb24efc260e3a63eb0ff3f)
 - [Python 일정한 길이로 String 짜를때](http://hjh5488.tistory.com/15)
+- [Python Pretty Print pprint](https://docs.python.org/3/library/pprint.html)
 
 ## Week 1
 - [컴퓨터 구성, 구조](Week-1/Day_1.md)
